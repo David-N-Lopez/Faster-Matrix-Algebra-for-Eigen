@@ -13,7 +13,7 @@ using namespace std;
 using namespace Eigen;
 
 	/******************Constructor***********************/
-	symMat::symMat(MatrixXi m){ //stores only the upper right triangle of the matrix
+	symMat::symMat(MatrixXd m){ //stores only the upper right triangle of the matrix
 		if (m.rows()==3 && m.cols()==3){//checks if matrix is of the correct size
 
 			for(int rows = 0; rows<3; rows++){
