@@ -9,10 +9,10 @@ To compile:
    
   -Clone this repository inside your new project
   
-  -Run Test.cpp
+  -Run Test.cpp using either clang or gcc
 
 Additional Info:
 
-  I did not overload operators for the symMat class (just functions). If this is needed, please let me know.
+  The operators have not been overloaded, but if this is a problem because it does not match with Eigen style, please let me know.
   
   
