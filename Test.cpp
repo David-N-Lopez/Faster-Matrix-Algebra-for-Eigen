@@ -15,7 +15,7 @@ int main(){
 	/*********testing conversion from Eigen:Matrix to symMat*********/
 	cout<< "Symmetrical matrix Test"<<endl<<
 			"The following 3x3 Matrix will be converted to a symmetrical matrix (let it be matrix A)"<<endl;
-	MatrixXi m(3, 3);
+	MatrixXd m(3, 3);
 	m(0, 1) = 6;
 	m(0, 0) = 2;
 	m(1,0) = 4;
