@@ -31,7 +31,7 @@ using namespace Eigen;
 
 	float symMat::getValuesAtPosition(int x, int y){ //retrieves values from any part of the matrix
 
-		if(x>y){// temporary fix
+		if(x>y){//checks if index is in strictly lower part of matrix
 			return uTriangleMatrix(y,x);
 		}
 		else{
