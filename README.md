@@ -1,5 +1,7 @@
 # Faster-Matrix-Algebra-for-EIGEN
-Test - David Nicolas Lopez 
+Test - David Nicolas Lopez
+
+Faster Matrix Algebra for Eigen's linear algebra library. Reduced the computational time by reduced by 43\% by implementing symmetrical matrix algebra.
 
 To compile:
   
@@ -11,8 +13,6 @@ To compile:
   
   -Run Test.cpp using either clang or gcc
 
-Additional Info:
 
-  The operators have not been overloaded, but if this is a problem because it does not match with Eigen style, please let me know.
   
   
