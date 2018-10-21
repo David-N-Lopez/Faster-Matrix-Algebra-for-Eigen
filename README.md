@@ -1,4 +1,4 @@
-# GSOC-Faster-Matrix-Algebra-for-ATLAS
+# Faster-Matrix-Algebra-for-EIGEN
 Test - David Nicolas Lopez 
 
 To compile:
